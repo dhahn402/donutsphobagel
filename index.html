@@ -160,9 +160,14 @@
     .btn-gold{background:var(--gold);color:#43291c}
     .btn-gold:hover{background:#d9a400;transform:translateY(-2px)}
     .kava-disc{color:rgba(255,255,255,.5);font-size:.78rem;max-width:62ch;margin:1.5rem auto 0;line-height:1.5}
+
+    /* Under construction */
+    .construction-bar{background:var(--gold);color:#43291c;font-family:"Baloo 2";font-weight:800;text-align:center;padding:.6rem 1rem;font-size:.92rem;line-height:1.35}
+    .construction-badge{position:fixed;bottom:16px;left:16px;z-index:60;background:#43291c;color:var(--gold);font-family:"Baloo 2";font-weight:800;font-size:.8rem;padding:.5rem .9rem;border-radius:999px;box-shadow:0 10px 24px -10px rgba(0,0,0,.55);border:1px solid var(--gold)}
   </style>
 </head>
 <body id="top">
+  <div class="construction-bar">🚧 Under Construction — pardon our dust! We're putting on the finishing touches. Full menu &amp; online ordering coming soon.</div>
   <header>
     <div class="wrap nav">
       <a class="brand" href="#top">🍩🍜🥯 Donuts Pho Bagels</a>
@@ -343,7 +348,7 @@
     <div class="wrap">
       <div class="order-card">
         <h2>Order in 30 Seconds</h2>
-        <p>Skip the wait — call or text your order and we'll have it hot and ready at the counter or drive-thru. Delivery available, too.</p>
+        <p>Skip the wait — call or text your order and we'll have it hot and ready at the counter, window, or drive-thru. Delivery available, too. <em>Online ordering &amp; payment coming soon.</em></p>
         <div class="cta-row">
           <a class="btn btn-primary" href="tel:+12526311470">📞 Call to Order</a>
           <a class="btn btn-ghost" href="sms:+12526311470">💬 Text Your Order</a>
@@ -453,6 +458,7 @@
   </footer>
 
   <a class="btn btn-primary float-order" href="#order">🛍️ Order</a>
+  <div class="construction-badge">🚧 Under Construction</div>
   <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
 </body>
 </html>
