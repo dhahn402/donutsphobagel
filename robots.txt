@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://donutsphobagel.com/sitemap.xml
+Sitemap: https://donutsphobagels.com/sitemap.xml
