@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://donutsphobagels.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://donutsphobagels.com/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://donutsphobagels.com/blog/hot-fresh-donuts-new-bern.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://donutsphobagels.com/blog/pho-101-new-bern.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://donutsphobagels.com/blog/kava-bar-new-bern.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://donutsphobagels.com/</loc>
+    <lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://donutsphobagels.com/blog/</loc>
+    <lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://donutsphobagels.com/blog/hot-fresh-donuts-new-bern.html</loc>
+    <lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://donutsphobagels.com/blog/pho-101-new-bern.html</loc>
+    <lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://donutsphobagels.com/blog/kava-bar-new-bern.html</loc>
+    <lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
