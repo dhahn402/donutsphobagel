@@ -1,3 +1,9 @@
 DonutsPhoBagels_Owner_Packet.pdf
 build_owner_packet.py
 *.pdf
+
+# Local backups and macOS cruft — must never publish on a client site
+.DS_Store
+*.bak
+*.bak-*
+index.html.bak-*
