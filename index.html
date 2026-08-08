@@ -177,6 +177,12 @@
     .btn-gold:hover{background:#d9a400;transform:translateY(-2px)}
     .kava-disc{color:rgba(255,255,255,.5);font-size:.78rem;max-width:62ch;margin:1.5rem auto 0;line-height:1.5}
 
+    .kava-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.6rem 0 .4rem;text-align:left}
+    @media(max-width:700px){.kava-grid{grid-template-columns:1fr}}
+    .kava-card{background:rgba(255,255,255,.05);border:1px solid rgba(242,183,5,.28);border-radius:12px;padding:1rem 1.1rem}
+    .kava-card h3{color:var(--gold);font-size:1.02rem;margin:0 0 .35rem}
+    .kava-card p{color:rgba(255,255,255,.82);font-size:.94rem;line-height:1.55;margin:0}
+
     /* Under construction */
     .construction-bar{background:var(--gold);color:#43291c;font-family:"Baloo 2";font-weight:800;text-align:center;padding:.6rem 1rem;font-size:.92rem;line-height:1.35}
     .construction-badge{position:fixed;bottom:16px;left:16px;z-index:60;background:#43291c;color:var(--gold);font-family:"Baloo 2";font-weight:800;font-size:.8rem;padding:.5rem .9rem;border-radius:999px;box-shadow:0 10px 24px -10px rgba(0,0,0,.55);border:1px solid var(--gold)}
@@ -193,7 +199,7 @@
   <option value="https://translate.google.com/translate?sl=en&amp;tl=vi&amp;u=https://donutsphobagels.com/">Tiếng Việt</option>
   <option value="https://translate.google.com/translate?sl=en&amp;tl=ar&amp;u=https://donutsphobagels.com/">العربية</option>
 </select>
-  <div class="construction-bar">🚧 Under Construction — pardon our dust! We're putting on the finishing touches. Full menu &amp; online ordering coming soon.</div>
+  
   <header>
     <div class="wrap nav">
       <a class="brand" href="#top">🍩🍜🥯 Donuts Pho Bagels</a>
@@ -381,7 +387,7 @@
     <div class="wrap">
       <div class="order-card">
         <h2>Order in 30 Seconds</h2>
-        <p>Skip the wait — call or text your order and we'll have it hot and ready at the counter, window, or drive-thru. Delivery available, too. <em>Online ordering &amp; payment coming soon.</em></p>
+        <p>Skip the wait — call or text your order and we'll have it hot and ready at the counter, window, or drive-thru. Delivery available, too. <em>Call or text your order &mdash; we answer.</em></p>
         <div class="cta-row">
           <a class="btn btn-primary" href="tel:+12526311470">📞 Call to Order</a>
           <a class="btn btn-ghost" href="sms:+12526311470">💬 Text Your Order</a>
@@ -410,13 +416,47 @@
 
   <section class="kavabar" id="kavabar">
     <div class="wrap kava-inner">
-      <span class="kava-badge">Coming Soon · 21+</span>
+      <span class="kava-badge">Now Being Stocked &middot; Opening Soon &middot; 21+</span>
       <h2>The Kava &amp; Kratom Bar</h2>
-      <p class="kava-lead">In partnership with <strong>Faith &amp; Fitness Herbs</strong> — one of the <strong>first kava &amp; kratom bars in the New Bern area</strong>. Fresh kava, kratom teas &amp; botanical drinks — plus rare, single-origin imported coffee: <strong>Sumatra, Bali &amp; Kopi Luwak</strong> — crafted right at the counter.</p>
-      <p class="kava-sub">Lab-tested · honest quality · direct from the source · 21+.</p>
-      <a class="btn btn-gold" href="https://faithandfitnessherbs.com" target="_blank" rel="noopener">By Faith &amp; Fitness Herbs →</a>
-      <a class="btn btn-gold" href="https://koalateakratom.com" target="_blank" rel="noopener">Shop Koala Tea Kratom →</a>
-      <p class="kava-disc">Must be 21+ with valid ID. These statements have not been evaluated by the Food &amp; Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p>
+      <p class="kava-lead">The shelves are being stocked right now &mdash; and we could not be more
+      excited. When the doors open, this will be <strong>one of the first kava &amp; kratom bars in the
+      New Bern area</strong>, built in partnership with <strong>Faith &amp; Fitness Herbs</strong>,
+      a New Bern botanicals company.</p>
+
+      <div class="kava-grid">
+        <div class="kava-card">
+          <h3>Kava, prepared traditionally</h3>
+          <p>Kava is a beverage made from the root of the kava plant, prepared and shared across the
+          South Pacific for centuries. Ours is served the traditional way &mdash; strained fresh at the
+          counter, in a shell, the way it is done in the islands.</p>
+        </div>
+        <div class="kava-card">
+          <h3>Kratom teas &amp; botanical drinks</h3>
+          <p>Brewed to order and served over ice or hot. Every batch is lab tested, and we can show you
+          the paperwork for what is in your cup. No mystery blends.</p>
+        </div>
+        <div class="kava-card">
+          <h3>Rare single-origin coffee</h3>
+          <p>Sumatra, Bali, and <strong>Kopi Luwak</strong> &mdash; imported direct and ground fresh.
+          If you have never had a proper cup of Sumatra, this is the place to start.</p>
+        </div>
+        <div class="kava-card">
+          <h3>A place to actually sit</h3>
+          <p>No alcohol. Comfortable seating, good coffee, and somewhere to meet a friend in the evening
+          without a bar. New Bern has needed one of these for a long time.</p>
+        </div>
+      </div>
+
+      <p class="kava-sub">Lab-tested &middot; honest labeling &middot; direct from the source &middot;
+      21+ with valid ID</p>
+
+      <a class="btn btn-gold" href="sms:+12526311470">&#128172; Text us when it opens</a>
+      <a class="btn btn-gold" href="https://faithandfitnessherbs.com" target="_blank" rel="noopener">By Faith &amp; Fitness Herbs &rarr;</a>
+
+      <p class="kava-disc">Must be 21+ with valid ID. Not for use by anyone under 21, or by women who
+      are pregnant or nursing. We make no health or medical claims about any product we serve. These
+      statements have not been evaluated by the Food &amp; Drug Administration. Nothing we serve is
+      intended to diagnose, treat, cure, or prevent any disease.</p>
     </div>
   </section>
 
@@ -517,7 +557,7 @@
   <a class="btn btn-primary float-order" href="#order">🛍️ Order</a>
   <button id="tuneBtn" class="tune-btn" aria-label="Play a happy tune">🎵 Play a tune</button>
   <audio id="tune" src="donut-tune.mp3" loop preload="none"></audio>
-  <div class="construction-badge">🚧 Under Construction</div>
+  
   <script>
     document.getElementById('yr').textContent=new Date().getFullYear();
     (function(){
