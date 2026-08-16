@@ -157,12 +157,12 @@
     @media(max-width:760px){.visit{grid-template-columns:1fr}}
 
     footer{background:var(--coffee-dark);color:rgba(255,255,255,.8);padding:2.5rem 0}
-    .foot{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:1.5rem}
+    .foot{display:grid;grid-template-columns:1.25fr 1fr 1fr 1fr;gap:1.4rem}
     footer h4{color:#fff;font-family:"Baloo 2";margin-bottom:.6rem}
     footer a{color:rgba(255,255,255,.8)}footer a:hover{color:#fff}
     .foot .line{font-size:.92rem;margin-bottom:.3rem}
-    .copyright{border-top:1px solid rgba(255,255,255,.15);margin-top:1.8rem;padding-top:1.2rem;font-size:.82rem;color:rgba(255,255,255,.55);text-align:center}
-    @media(max-width:700px){.foot{grid-template-columns:1fr}}
+    .copyright{border-top:1px solid rgba(255,255,255,.15);margin-top:1.8rem;padding-top:1.2rem;font-size:.82rem;color:rgba(255,255,255,.55);text-align:center;overflow-wrap:anywhere}
+    @media(max-width:1000px){.foot{grid-template-columns:1fr 1fr;gap:1.6rem}}@media(max-width:700px){.foot{grid-template-columns:1fr}}
 
     /* Floating order (mobile) */
     .float-order{position:fixed;bottom:16px;right:16px;z-index:60;display:none}
@@ -319,7 +319,7 @@
         <div class="m-item"><div><span class="name">House Special Phở <span class="tag star">★ Favorite</span></span><div class="desc">Steak, shank, tripe, fatty flank &amp; meatballs.</div></div><span class="price">$17.99</span></div>
         <div class="m-item"><div><span class="name">Regular Beef Phở</span><div class="desc">Sliced rare beef, brisket &amp; meatballs.</div></div><span class="price">$15.99</span></div>
         <div class="m-item"><div><span class="name">Chicken Phở</span><div class="desc">Two-day broth with chicken breast.</div></div><span class="price">$15.99</span></div>
-        <div class="m-item"><div><span class="name">Vegetable Phở <span class="tag vg">VG</span></span><div class="desc">Carrot, broccoli, mushroom &amp; fried tofu.</div></div><span class="price">$14.99</span></div>
+        <div class="m-item"><div><span class="name">Vegetable Phở <span class="tag vg">VG</span></span><div class="desc">Two-day vegetable broth with carrot, broccoli, mushroom &amp; fried tofu.</div></div><span class="price">$14.99</span></div>
         <div class="m-cat"><span>Appetizers</span></div>
         <div class="m-item"><div><span class="name">Pork &amp; Shrimp Fresh Spring Roll</span></div><span class="price">$2.50</span></div>
         <div class="m-item"><div><span class="name">Shrimp Fresh Spring Roll</span></div><span class="price">$2.50</span></div>
@@ -331,7 +331,7 @@
         <h3>🥯 Bagels, Breakfast &amp; Sandwiches</h3>
         <p class="sub">Hand-rolled bagels baked in-house, melts, deli sandwiches &amp; hearty breakfast.</p>
         <div class="m-cat"><span>Bagels &amp; Spreads</span></div>
-        <div class="m-item"><div><span class="name">Bagel</span><div class="desc">each $1.25 · half-dozen $7.50 · baker's dozen $14.95</div></div><span class="price">$1.25</span></div>
+        <div class="m-item"><div><span class="name">Bagel</span><div class="desc">Everything · Plain · Blueberry · Sesame &amp; more, rolled and baked fresh daily.<br />each $1.25 · half-dozen $7.50 · baker's dozen $14.95</div></div><span class="price">$1.25</span></div>
         <div class="m-item"><div><span class="name">Bagel with Cream Cheese</span><div class="desc">Plain / Strawberry $2.25 · Vegetable $2.75 · Honey-Walnut $3.00 · Bacon-Jalapeño $3.00</div></div><span class="price">from $2.25</span></div>
         <div class="m-item"><div><span class="name">Cheesecake Spread</span><div class="desc">¼ lb $2.25 · ½ lb $4.25 · 1 lb $8.50</div></div><span class="price">from $2.25</span></div>
         <div class="m-item"><div><span class="name">Other Spreads</span><div class="desc">Real Butter $1.75 · Cinnamon Butter $2.25 · Honey Butter $2.50</div></div><span class="price">from $1.75</span></div>
@@ -434,8 +434,12 @@
         </div>
         <div class="kava-card">
           <h3>Kratom teas &amp; botanical drinks</h3>
-          <p>Brewed to order and served over ice or hot. Every batch is lab tested, and we can show you
-          the paperwork for what is in your cup. No mystery blends.</p>
+          <p>Brewed to order and served over ice or hot. Our botanicals are analyzed by <strong>Anresco
+          Laboratories</strong> &mdash; an ISO/IEC 17025 accredited lab (Cert. AT&#8209;1551) &mdash; under
+          <em>our own company name</em>, not a supplier&rsquo;s. Heavy metals, alkaloid profile, microbials.
+          Tested <strong>twice</strong> &mdash; by HPLC in Indonesia at the source, then confirmed again at a
+          US laboratory, so the numbers are verified on both ends. Ask at the counter and we will show
+          you the report. No mystery blends.</p>
         </div>
         <div class="kava-card">
           <h3>Rare single-origin coffee</h3>
@@ -462,7 +466,9 @@
       <a class="btn btn-gold" href="sms:+12526311470">&#128172; Text us when it opens</a>
       <a class="btn btn-gold" href="https://faithandfitnessherbs.com" target="_blank" rel="noopener">By Faith &amp; Fitness Herbs &rarr;</a>
 
-      <p class="kava-disc">Must be 21+ with valid ID. Not for use by anyone under 21, or by women who
+      <p class="kava-disc"><strong>North Carolina law requires 18. We card at 21.</strong> That is our
+      choice, not the minimum &mdash; it is where this industry is going and we would rather get there
+      first. Must be 21+ with valid ID. Not for use by anyone under 21, or by women who
       are pregnant or nursing. We make no health or medical claims about any product we serve. These
       statements have not been evaluated by the Food &amp; Drug Administration. Nothing we serve is
       intended to diagnose, treat, cure, or prevent any disease.</p>
@@ -546,6 +552,12 @@
           <p class="line"><a href="tel:+12526311470">(252) 631-1470</a></p>
         </div>
         <div>
+          <h4>Also From This Family</h4>
+          <p class="line"><a href="https://www.google.com/search?q=Brilliant+Nails+NC+LLC+New+Bern+NC" target="_blank" rel="noopener">💅 Brilliant Nails &amp; Spa</a></p>
+          <p class="line">2522 Neuse Blvd, Ste B</p>
+          <p class="line"><a href="tel:+12522884725">(252) 288-4725</a></p>
+        </div>
+        <div>
           <h4>Order</h4>
           <p class="line"><a href="tel:+12526311470">Call / Text to Order</a></p>
           <p class="line"><a href="#menu">See the Menu</a></p>
@@ -557,7 +569,7 @@
       <div class="copyright">&copy; <span id="yr">2026</span> Donuts Pho Bagels · New Bern, NC · Website by <span style="color:#f2b705">Hahn Technologies</span><br />Music: &ldquo;Carefree&rdquo; by Kevin MacLeod (incompetech.com) · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" style="color:#f2b705">CC BY 4.0</a></div>
     </div>
   
-    <div class="hahn-family-row" style="max-width:920px;margin:1.3rem auto 0;padding:1rem 1rem 0;border-top:1px solid rgba(128,128,128,.22);font-size:.78rem;line-height:2;text-align:center;opacity:.75">
+    <div class="hahn-family-row" style="max-width:920px;margin:1.3rem auto 0;padding:1rem clamp(1rem,4vw,2rem) 0;box-sizing:border-box;overflow-wrap:anywhere;border-top:1px solid rgba(128,128,128,.22);font-size:.78rem;line-height:2;text-align:center;opacity:.75">
       <strong>The Hahn Family of Companies</strong><br>
       <a href="https://hahntechcorp.com" style="color:inherit;text-decoration:underline">Hahn Tech Corp</a> · <a href="https://koalateakratom.com" style="color:inherit;text-decoration:underline">Koala Tea Kratom</a> · <a href="https://red-sea-rentals.com/?v=1" style="color:inherit;text-decoration:underline">Red Sea Rentals</a> · <a href="https://readytechrepairs.com" style="color:inherit;text-decoration:underline">Ready Tech Repairs</a> · <a href="https://ubuntumylife.com" style="color:inherit;text-decoration:underline">Ubuntu My Life</a> · <a href="https://flipthecupfinancials.com" style="color:inherit;text-decoration:underline">Flip the Cup</a> · <a href="https://everandamen.org" style="color:inherit;text-decoration:underline">Ever & Amen</a> · <a href="https://donutsphobagels.com" style="color:inherit;text-decoration:underline">Donuts Pho Bagels</a> · <a href="https://hahnsparkling.com" style="color:inherit;text-decoration:underline">Hahn Sparkling</a> · <a href="https://livingwaterdelivered.com" style="color:inherit;text-decoration:underline">Living Water</a> · <a href="https://fishingpierhopper.com" style="color:inherit;text-decoration:underline">Pier Hopper</a> · <a href="https://tortugueroturtles.com" style="color:inherit;text-decoration:underline">Track the Turtles</a> · <a href="https://wishafter.com" style="color:inherit;text-decoration:underline">Wish Ever After</a> · <a href="https://methuselahmoney.com" style="color:inherit;text-decoration:underline">Methuselah</a> · <a href="https://aihealthnwellness.com" style="color:inherit;text-decoration:underline">AI Health & Wellness</a> · <a href="https://davidworthingtonhahn.com" style="color:inherit;text-decoration:underline">David Hahn</a> · <a href="https://dhahn402.github.io/hahn-realestate/" style="color:inherit;text-decoration:underline">Hahn Real Estate</a> · <a href="https://dhahn402.github.io/hahn-staffing/" style="color:inherit;text-decoration:underline">Hahn Staffing</a>
     </div>
